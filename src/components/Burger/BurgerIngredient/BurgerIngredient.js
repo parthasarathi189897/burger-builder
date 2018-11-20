@@ -2,11 +2,11 @@
 import React from "react";
 import "./burger-ingredient.css";
 
-type Props = {
-  type: string
-};
+// type Props = {
+//   type: string
+// };
 
-const burgerIngredient = (props: Props) => {
+const burgerIngredient = props => {
   let ingredient = null;
   switch (props.type) {
     case "bread-bottom":
